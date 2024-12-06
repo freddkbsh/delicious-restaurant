@@ -1,0 +1,108 @@
+{% extends 'starter-page.html' %}
+{% load static %}
+
+     
+{% block body %}
+    
+    <!-- Specials Section -->
+    <section id="specials" class="specials section bg-info">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Specials</h2>
+        <div><span>Check Our</span> <span class="description-title">Specials</span></div>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-lg-3">
+            <ul class="nav nav-tabs flex-column">
+              <li class="nav-item">
+                <a class="nav-link active show" data-bs-toggle="tab" href="#specials-tab-1">ugali special</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#specials-tab-2">groundnuts and orange</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#specials-tab-3">iondime meat</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#specials-tab-4">pizaa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="tab" href="#specials-tab-5">fruits pure</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-9 mt-4 mt-lg-0">
+            <div class="tab-content">
+              <div class="tab-pane active show" id="specials-tab-1">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>ugali special meal</h3>
+                    <p class="fst-italic"> this meal is always available from monday to monday. Purpose to taste it at any time</p>
+                    
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="{% static 'assets/img/specials-1.jpg' %}" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="specials-tab-2">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>groundnuts and oranges</h3>
+                    <p class="fst-italic">we have high quality groundnuts dish where its accompanied by some oranges and other things in it</p>
+                    
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="{% static 'assets/img/specials-2.jpg' %}" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="specials-tab-3">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>iodimine meat</h3>
+                    <p class="fst-italic">welcome to a special meal made of meat and iodimine at our delicious point everytime of the day</p>
+                    
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="{% static 'assets/img/specials-3.jpg' %}" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="specials-tab-4">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>pizza point</h3>
+                   <p class="fst-italic">pizza point we offer it at affordable price, feel much welcome </p>
+                    
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="{% static 'assets/img/specials-4.jpg' %}" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="specials-tab-5">
+                <div class="row">
+                  <div class="col-lg-8 details order-2 order-lg-1">
+                    <h3>fruits arena</h3>
+                    <p class="fst-italic">come and have much taste on the fruits we offer to our beloved customers.</p>
+                    
+                  </div>
+                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                    <img src="{% static 'assets/img/specials-5.jpg' %}" alt="" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Specials Section -->
+
+{% endblock %}
